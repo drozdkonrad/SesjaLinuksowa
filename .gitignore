@@ -1,0 +1,11 @@
+*.iml
+*.bin
+*.lock
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.gradle/2.8/taskArtifacts
+app/app-release/apk

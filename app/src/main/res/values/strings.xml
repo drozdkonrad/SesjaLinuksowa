@@ -1,0 +1,44 @@
+<resources>
+<!-- APP STUFF-->
+    <string name="app_name">13 Sesja Linuksowa</string>
+    <string name="menu_favorites">Ulubione</string>
+    <string name="menu_contact">Kontakt</string>
+    <string name="menu_about">O Sesji</string>
+    <string name="rate">Oceń: </string>
+<!--CONTENT-->
+    <string name="whatIs">CZYM JEST SESJA? </string>
+    <string name="howLooks">JAK TO WYGLĄDA? </string>
+    <string name="target">NASZ CEL: </string>
+    <string name="previous_session">POPRZEDNIA EDYCJA:</string>
+    <string name="where">GDZIE?</string>
+    <string name="ourTeam">Nasz zespół</string>
+    <string name="appAuthors">Twórcy aplikacji</string>
+    <string name="whatIsDesc">Jest to konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux.</string>
+    <string name="howLooksDesc">Udział w Sesji jest darmowy. Co roku na konferencji spotykają się pasjonaci informatyki z całej Polski, aby pogłębić swoją wiedzę i podjąć dyskusję w interesujących ich dziedzinach.</string>
+    <string name="targetDesc">Naszym celem jest promowanie idei wolnego oprogramowania. Wiemy, że Open Source jest coraz bardziej popularny w rozwiązaniach komercyjnych, jak i domowych. I zależy nam na jego popularyzacji.</string>
+    <string name="coordinator">Koordynator</string>
+    <string name="ceo">CEO</string>
+    <string name="whereDesc">Budynek SKS znajduje się na terenie kampusu Politechniki Wrocławskiej, przy ulicy Hoene-Wrońskiego 10</string>
+    <!-- NAMES-->
+    <string name="czerpak">Wojciech Czerpak</string>
+    <string name="plonka">Magdalena Płonka</string>
+    <string name="przybylek">Dobrochna Przybyłek</string>
+    <string name="jurec">Julian Jurec</string>
+    <string name="drozd">Konrad Drozd</string>
+    <!-- MIDDLE PARTY-->
+    <string name="middlePartyAdress">Powstańców Śląskich 95, Wrocław</string>
+    <string name="middlePartyName">212! Cafe</string>
+    <string name="middlePartyTime">2 Kwietnia, 20:00 - 01:00</string>
+    <string name="middlePartyDescription">Już tradycyjnie po pierwszym dniu wykładów spotykamy się w restauracji 212! znajdującej się w SkyTower. Jest to nieformalne spotkanie dla wszystkich uczestników. Przy tej okazji można będzie porozmawiać z prelegentami, organizatorami oraz innymi uczestnikami. Specjalnie dla uczestników przygotowaliśmy zniżki na barze oraz miłe upominki na początek!</string>
+    <!-- CONTACT-->
+    <string name="czerpakMail">wojciech.czerpak@linuksowa.pl</string>
+    <string name="przybylekMail">dobrochna.przybylek@linuksowa.pl</string>
+    <string name="plonkaMail">magdalena.plonka@linuksowa.pl</string>
+    <string name="drozdMail">drozdkonrad@gmail.com</string>
+    <string name="jurecMail">julian.jurec@gmail.com</string>
+    <!--RANDOM-->
+    <string name="lorem_ipsum">Bacon ipsum dolor amet jowl ribeye frankfurter sausage ham capicola chuck pork belly. Pork alcatra prosciutto ground round kevin leberkas. Biltong cupim beef, brisket landjaeger bacon picanha. Landjaeger ham doner, ball tip jowl chicken chuck salami spare ribs alcatra boudin pastrami bacon shankle. Salami frankfurter alcatra corned beef beef ribs pastrami, landjaeger tongue short loin.</string>
+    <string name="sponsors">Sponsorzy</string>
+    <string name="patrons">Patroni</string>
+    <string name="organisators">Organizatorzy</string>
+</resources>

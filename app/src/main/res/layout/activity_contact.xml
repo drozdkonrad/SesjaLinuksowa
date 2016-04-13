@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        />
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tool_bar">
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_below="@id/tool_bar">
+<!--Team-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="@string/ourTeam"/>
+
+            <include layout="@layout/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginEnd="30dp"/>
+<!--Czerpak-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/czerpak"
+                    android:maxHeight="@dimen/team_image_height"
+                    android:maxWidth="@dimen/team_image_width"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="@dimen/contact_name_font_size"
+                        android:textStyle="bold"
+                        android:text="@string/czerpak"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/coordinator"
+                        android:textColor="@color/colorAccentDark"/>
+                    <TextView
+                        android:id="@+id/czerpak_mail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/czerpakMail"
+                        android:textColor="@color/textSecondary"
+                        android:textIsSelectable="true" />
+            </LinearLayout>
+<!--Przybyłek-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/przybylek"
+                    android:maxHeight="@dimen/team_image_height"
+                    android:maxWidth="@dimen/team_image_width"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="@dimen/contact_name_font_size"
+                        android:textStyle="bold"
+                        android:text="@string/przybylek"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:text="@string/coordinator"
+                        android:textColor="@color/colorAccentDark"/>
+                    <TextView
+                        android:id="@+id/przybylek_mail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:text="@string/przybylekMail"
+                        android:textColor="@color/textSecondary"
+                        android:textIsSelectable="true"/>
+
+            </LinearLayout>
+<!--Płonka-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/plonka"
+                    android:maxHeight="@dimen/team_image_height"
+                    android:maxWidth="@dimen/team_image_width"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="@dimen/contact_name_font_size"
+                        android:textStyle="bold"
+                        android:text="@string/plonka"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:text="@string/ceo"
+                        android:textColor="@color/colorAccentDark"/>
+                    <TextView
+                        android:id="@+id/plonka_mail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/plonkaMail"
+                        android:textColor="@color/textSecondary"
+                        android:textIsSelectable="true"/>
+
+            </LinearLayout>
+
+<!-- Twórcy-->
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="@string/appAuthors"/>
+
+            <include layout="@layout/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginEnd="30dp"/>
+<!--Drozd-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/drozd"
+                    android:maxHeight="@dimen/team_image_height"
+                    android:maxWidth="@dimen/team_image_width"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="@dimen/contact_name_font_size"
+                        android:textStyle="bold"
+                        android:text="@string/drozd"/>
+
+                    <TextView
+                        android:id="@+id/drozd_mail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/drozdMail"
+                        android:textColor="@color/textSecondary"
+                        android:textIsSelectable="true"/>
+
+            </LinearLayout>
+<!-- Jurec-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jurec"
+                    android:maxHeight="@dimen/team_image_height"
+                    android:maxWidth="@dimen/team_image_width"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="@dimen/contact_name_font_size"
+                        android:textStyle="bold"
+                        android:text="@string/jurec"/>
+
+                    <TextView
+                        android:id="@+id/jurec_mail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/jurecMail"
+                        android:textColor="@color/textSecondary"
+                        android:textIsSelectable="true"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

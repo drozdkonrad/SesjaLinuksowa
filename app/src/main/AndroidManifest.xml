@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.wroclaw.asi.sesja_linuksowa"
+    android:versionCode="2"
+    android:versionName="Skipper">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="pl.wroclaw.asi.sesja_linuksowa.Activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="pl.wroclaw.asi.sesja_linuksowa.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="pl.wroclaw.asi.sesja_linuksowa.Activities.FavoritesActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/menu_favorites"
+            android:parentActivityName="pl.wroclaw.asi.sesja_linuksowa.MainActivity" >
+        </activity>
+        <activity
+            android:name="pl.wroclaw.asi.sesja_linuksowa.Activities.AboutActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/menu_about"
+            android:parentActivityName="pl.wroclaw.asi.sesja_linuksowa.MainActivity" >
+        </activity>
+        <activity
+            android:name="pl.wroclaw.asi.sesja_linuksowa.Activities.ContactActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/menu_contact"
+            android:parentActivityName="pl.wroclaw.asi.sesja_linuksowa.MainActivity">
+        </activity>
+    </application>
+
+</manifest>

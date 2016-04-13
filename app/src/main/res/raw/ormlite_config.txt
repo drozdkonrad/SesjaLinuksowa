@@ -1,0 +1,78 @@
+#
+# generated on 2016/03/31 01:36:54
+#
+# --table-start--
+dataClass=pl.wroclaw.asi.sesja_linuksowa.Model.Speaker
+tableName=speakers
+# --table-fields-start--
+# --field-start--
+fieldName=mId
+columnName=speaker_id
+id=true
+# --field-end--
+# --field-start--
+fieldName=mFirstName
+columnName=speaker_firstname
+# --field-end--
+# --field-start--
+fieldName=mNickname
+columnName=speaker_nickname
+# --field-end--
+# --field-start--
+fieldName=mLastName
+columnName=speaker_lastname
+# --field-end--
+# --field-start--
+fieldName=mDescription
+columnName=speaker_description
+# --field-end--
+# --field-start--
+fieldName=mImageUrl
+columnName=speaker_imagepath
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=pl.wroclaw.asi.sesja_linuksowa.Model.Lecture
+tableName=lectures
+# --table-fields-start--
+# --field-start--
+fieldName=mName
+columnName=lecture_name
+# --field-end--
+# --field-start--
+fieldName=mDescription
+columnName=lecture_description
+# --field-end--
+# --field-start--
+fieldName=mStartTime
+columnName=lecture_starttime
+# --field-end--
+# --field-start--
+fieldName=mEndTime
+columnName=lecture_endtime
+# --field-end--
+# --field-start--
+fieldName=mLanguage
+columnName=lecture_language
+# --field-end--
+# --field-start--
+fieldName=mRoomId
+columnName=lecture_roomid
+# --field-end--
+# --field-start--
+fieldName=day
+columnName=lecture_day
+# --field-end--
+# --field-start--
+fieldName=mSpeakerId
+columnName=lecture_speakerid
+# --field-end--
+# --field-start--
+fieldName=isFavourite
+columnName=is_favourite
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

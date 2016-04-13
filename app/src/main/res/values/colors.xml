@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#429096</color> <!--Taby, list_speaker_child_bckgrnd, Toolbar-->
+    <color name="colorPrimaryDark">#323f49</color> <!--belka systemowa-->
+    <color name="colorPrimaryCardLight">#7ac1c5</color> <!--belka systemowa-->
+    <color name="colorPrimaryLight">#e8f4f5</color> <!--background activities, list_item_speaker_bckgrnd-->
+    <color name="colorAccent">#dba100</color> <!-- FAB bckgrnd -->
+    <color name="colorAccentDark">#dba100</color> <!-- Koordynator,CEO,godziny-->
+    <color name="indicator">#ffffff</color> <!--Belka od aktualnego taba-->
+    <color name="card_color">#ffffff</color> <!-- kolor kart-->
+
+    <color name="divider">#dba100</color>
+
+    <color name="textPrimary">#DF000000</color>
+    <color name="textSecondary">#8A000000</color>
+    <color name="textTertiary">#A9000000</color>
+</resources>

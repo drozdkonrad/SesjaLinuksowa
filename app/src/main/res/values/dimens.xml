@@ -1,0 +1,25 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="card_margin_top_bottom">5dp</dimen>
+    <dimen name="card_margin_left_right">3dp</dimen>
+    <dimen name="card_corner_radius">2dp</dimen>
+    <dimen name="card_elevation">3dp</dimen>
+    <dimen name="image_about_width">60dp</dimen>
+    <dimen name="image_about_height">50dp</dimen>
+    <dimen name="image_speaker_reference_width">100dp</dimen>
+    <dimen name="image_speaker_reference_height">100dp</dimen>
+    <dimen name="team_image_height">150dp</dimen>
+    <dimen name="team_image_width">150dp</dimen>
+    <dimen name="previous_session_width">250dp</dimen>
+    <dimen name="previous_session_height">250dp</dimen>
+
+    <!-- FONTS -->
+    <dimen name="contact_name_font_size">20sp</dimen>
+    <dimen name="lecture_title_font_size">17sp</dimen>
+    <dimen name="lecture_description_font_size">14sp</dimen>
+    <dimen name="about_description_font_size">18sp</dimen>
+    <dimen name="lecture_time_font_size">15sp</dimen>
+
+</resources>
